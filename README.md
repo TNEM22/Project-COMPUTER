@@ -4,8 +4,9 @@ Hello, this ai is made with python and cpp mix, AI only supports windows till no
 
 ## Install Requirements
 
-1. `pip install pyaudio`
-2. `pip install -r requirements.txt`
+1. `Supports python version 3.7`
+2. `pip install pyaudio`
+3. `pip install -r requirements.txt`
 
 ## If you get any problem while installing pyaudio in windows
 
@@ -16,7 +17,7 @@ If now also you are unable to install pyaudio then the last solution is [this](h
 
 ## If you want console then run
 
-`python computer.py`
+`py -3.7 computer.py`
 
 ## If you want console hidden then run
 
