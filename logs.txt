@@ -1,0 +1,3 @@
+(2021-12-04 15:13:19.633247)Error: recognition connection failed: [Errno 11001] getaddrinfo failed
+(2021-12-05 13:08:13.819510)Error: recognition connection failed: [Errno 11001] getaddrinfo failed
+(2021-12-05 16:43:18.708057)Error: listening timed out while waiting for phrase to start
