@@ -12,6 +12,7 @@ from win32gui import GetWindowText, GetForegroundWindow
 
 from Speech2Text import online
 from WakeWord.picoWW import computerWW
+from anime.viper import Viper
 
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
@@ -92,12 +93,13 @@ class dodo():
 if __name__ == "__main__":
     errors = 0
     isClosed = False
+    viper = Viper()
 
     print('\rProgram started.')
     real_path = os.path.realpath(__file__)
     while True:
         try:
-            # speak("Computer is booting.")
+            speak("Computer is booting.")
             spinner = Halo(text='Loading Models', spinner='dots')
             spinner.start()
 
@@ -112,10 +114,10 @@ if __name__ == "__main__":
             while True:
                 wakeWord.run()
 
-                # viper.start()
                 st = time.time()
+                viper.start()
                 text = str(speechON.run()).lower()
-                # viper.stop()
+                viper.stop()
                 print(f"{text}, Time: {time.time() - st}.")
 
                 if 'open' in text:
