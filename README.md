@@ -22,3 +22,5 @@ If now also you are unable to install pyaudio then the last solution is [this](h
 ## If you want console hidden then run
 
 `computer.exe`
+
+## To wake up assistant say `COMPUTER`
