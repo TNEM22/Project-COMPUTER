@@ -116,7 +116,10 @@ class Viper(object):
         self.image_path = os.path.join(
             os.path.dirname(real_path), 'bin/temp.jpg'
         )
-        self.back_image = real_path.split(r'\anime')[0]+r'\functions\bg.jpg'
+        # self.back_image = real_path.split(r'\anime')[0]+r'\functions\bg.jpg'
+        self.back_image = os.path.join(
+            os.path.dirname(real_path), 'bin/bg.jpg'
+        )
         self.image_temp = os.path.join(
             os.path.dirname(real_path), 'bin/temp01.jpg'
         )
